@@ -1,0 +1,118 @@
+/* Custom Dashboard styling matching the deep forest green theme */
+:root {
+    --brand-dark-sidebar: #0b2b22;
+    --brand-dark-sidebar-hover: #123e32;
+    --brand-dark-sidebar-active: #185243;
+    --brand-border: #e2e8f0;
+    --brand-primary: #0f4c3a;
+}
+
+/* Sidebar Styling */
+aside.fi-sidebar {
+    background-color: var(--brand-dark-sidebar) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Sidebar header / brand logo area */
+aside.fi-sidebar header.fi-sidebar-header {
+    background-color: var(--brand-dark-sidebar) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+aside.fi-sidebar header.fi-sidebar-header span,
+aside.fi-sidebar header.fi-sidebar-header a {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+/* Sidebar navigation links */
+aside.fi-sidebar .fi-sidebar-item-button,
+aside.fi-sidebar .fi-sidebar-group-button {
+    color: #cbd5e1 !important;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+/* Sidebar icons */
+aside.fi-sidebar .fi-sidebar-item-button .fi-sidebar-item-icon,
+aside.fi-sidebar .fi-sidebar-group-button svg {
+    color: #94a3b8 !important;
+}
+
+/* Hover state */
+aside.fi-sidebar .fi-sidebar-item-button:hover,
+aside.fi-sidebar .fi-sidebar-group-button:hover {
+    background-color: var(--brand-dark-sidebar-hover) !important;
+    color: #ffffff !important;
+}
+
+aside.fi-sidebar .fi-sidebar-item-button:hover .fi-sidebar-item-icon {
+    color: #34d399 !important;
+}
+
+/* Active / Current sidebar item */
+aside.fi-sidebar .fi-sidebar-item-active .fi-sidebar-item-button,
+aside.fi-sidebar .fi-sidebar-item-button.fi-active {
+    background-color: var(--brand-dark-sidebar-active) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+aside.fi-sidebar .fi-sidebar-item-active .fi-sidebar-item-icon,
+aside.fi-sidebar .fi-sidebar-item-button.fi-active .fi-sidebar-item-icon {
+    color: #34d399 !important;
+}
+
+/* Sidebar group labels */
+aside.fi-sidebar .fi-sidebar-group-label {
+    color: #6ee7b7 !important;
+    font-size: 0.72rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    opacity: 0.85;
+}
+
+/* Topbar Styling */
+header.fi-topbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03) !important;
+}
+
+/* Main background area */
+main.fi-main {
+    background-color: #f7faf9 !important;
+}
+
+/* Page titles */
+.fi-header-heading {
+    color: #0f172a !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.02em !important;
+}
+
+/* Dashboard stat widget cards */
+.fi-wi-stats-overview-stat {
+    border-radius: 0.75rem !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04) !important;
+    background: #ffffff !important;
+    transition: all 0.2s ease;
+}
+
+.fi-wi-stats-overview-stat:hover {
+    border-color: #cbd5e1 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07) !important;
+}
+
+/* Buttons in primary color */
+.fi-btn-primary {
+    background-color: #0f4c3a !important;
+    border-color: #0f4c3a !important;
+}
+
+.fi-btn-primary:hover {
+    background-color: #0b392b !important;
+    border-color: #0b392b !important;
+}
